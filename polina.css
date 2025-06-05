@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #2F4F4F;
+    color: #E0FFFF;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: #F8F8F8;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+}
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 5px solid #FFB6C1;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.6);
+}
+h1 {
+    color: #48D1CC;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.about-me {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #555;
+}
+.quote {
+    font-style: italic;
+    color: #87CEEB;
+    margin: 25px auto 40px auto;
+    max-width: 80%;
+    line-height: 1.6;
+}
+.interests-title {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    color: #48D1CC;
+}
+.interests-list button {
+    display: block;
+    width: 70%;
+    margin: 15px auto;
+    padding: 15px 25px;
+    background-color: #20B2AA;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.interests-list button:hover {
+    background-color: #2E8B57;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
